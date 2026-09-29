@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  # Priya's Boutique Web App & Express Backend
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: priyas_boutique_app
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongodb:27017/priyas_boutique
+      - JWT_SECRET=priyas_boutique_docker_secret_key_2026
+    depends_on:
+      - mongodb
+    restart: always
+
+  # MongoDB Database Service
+  mongodb:
+    image: mongo:latest
+    container_name: priyas_boutique_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+volumes:
+  mongo_data:

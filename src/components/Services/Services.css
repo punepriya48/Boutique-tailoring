@@ -1,0 +1,60 @@
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.75rem;
+  box-shadow: var(--shadow-tight);
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+}
+
+.service-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--color-rose-tint);
+  color: var(--color-rose);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.service-card__name {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.service-card__desc {
+  color: var(--color-ink-soft);
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.service-card__link {
+  margin-top: 1.5rem;
+  align-self: flex-start;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--color-rose);
+  border-bottom: 1px solid var(--color-rose);
+  padding-bottom: 2px;
+  transition: color 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+
+.service-card__link:hover {
+  color: var(--color-rose-dark);
+  border-color: var(--color-rose-dark);
+}

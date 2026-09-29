@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8C2F39"/>
+      <stop offset="100%" stop-color="#5A1C22"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#hg)"/>
+  <g opacity="0.5" stroke="#E3C78A" stroke-width="2">
+    <path d="M0 220 Q450 120 900 220" fill="none"/>
+    <path d="M0 880 Q450 980 900 880" fill="none"/>
+  </g>
+  <circle cx="450" cy="520" r="230" fill="#F1D9DD" opacity="0.14"/>
+  <path d="M450 340 C 560 420 560 620 450 720 C 340 620 340 420 450 340 Z" fill="#F1D9DD" opacity="0.22"/>
+  <path d="M330 700 Q450 640 570 700 L 560 900 Q450 950 340 900 Z" fill="#FAF3EC" opacity="0.16"/>
+  <text x="450" y="1020" font-family="Georgia, serif" font-size="26" fill="#FAF3EC" fill-opacity="0.75" text-anchor="middle" font-style="italic">Sample hero photo — replace with a real portrait</text>
+</svg>

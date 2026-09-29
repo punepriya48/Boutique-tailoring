@@ -1,0 +1,76 @@
+.enquiry__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 1.5rem + 2vw, 4rem);
+  align-items: start;
+}
+
+.enquiry__intro .section-sub {
+  margin-top: 1rem;
+}
+
+.enquiry__form {
+  padding: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+}
+
+.enquiry__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.enquiry__field label {
+  font-size: 0.85rem;
+  color: var(--color-ink-soft);
+}
+
+.enquiry__field input,
+.enquiry__field select,
+.enquiry__field textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem 0.95rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(43, 32, 36, 0.18);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  resize: vertical;
+}
+
+.enquiry__field input:focus,
+.enquiry__field select:focus,
+.enquiry__field textarea:focus {
+  border-color: var(--color-rose);
+}
+
+.enquiry__error {
+  color: var(--color-rose-dark);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.enquiry__submit {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .enquiry__form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .enquiry__field--full,
+  .enquiry__error,
+  .enquiry__submit {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 980px) {
+  .enquiry__grid {
+    grid-template-columns: 0.85fr 1.15fr;
+  }
+}

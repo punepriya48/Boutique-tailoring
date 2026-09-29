@@ -1,0 +1,94 @@
+.profile-user-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 800px) {
+  .profile-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+  }
+}
+
+.section-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-header-icon .icon {
+  font-size: 1.3rem;
+  color: var(--color-rose);
+}
+
+.history-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.history-card {
+  padding: 1.5rem;
+}
+
+.history-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(43, 32, 36, 0.08);
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.history-items-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-card-foot {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(43, 32, 36, 0.08);
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.booking-info-body {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.empty-box {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-ink-soft);
+}
+
+.padding-lg {
+  padding: 3rem;
+}

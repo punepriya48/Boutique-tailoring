@@ -1,0 +1,50 @@
+.how__steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.25rem;
+  counter-reset: step;
+}
+
+.how__step {
+  position: relative;
+  padding-left: 4.25rem;
+}
+
+.how__number {
+  position: absolute;
+  left: 0;
+  top: -0.35rem;
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--color-gold);
+  line-height: 1;
+}
+
+.how__step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.how__step p {
+  color: var(--color-ink-soft);
+  font-size: 0.95rem;
+  max-width: 42ch;
+}
+
+@media (min-width: 760px) {
+  .how__steps {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .how__step {
+    padding-left: 0;
+    padding-top: 3.5rem;
+    border-top: 2px solid rgba(43, 32, 36, 0.1);
+  }
+
+  .how__number {
+    left: 0;
+    top: -2.15rem;
+  }
+}

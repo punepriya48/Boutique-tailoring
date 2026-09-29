@@ -1,0 +1,25 @@
+.why__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem 1.75rem;
+}
+
+.why__item {
+  text-align: left;
+}
+
+.why__icon {
+  font-size: 1.6rem;
+  color: var(--color-rose);
+  margin-bottom: 0.9rem;
+}
+
+.why__item h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.why__item p {
+  color: var(--color-ink-soft);
+  font-size: 0.92rem;
+}
