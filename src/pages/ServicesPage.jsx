@@ -125,7 +125,7 @@ function ServicesPage() {
           {/* Special Custom Request Box */}
           <div className="custom-tailoring-banner card margin-top-lg">
             <div className="banner-content">
-              <h2>Have a Special Design in Mind?</h2>
+              <p><b>Have a Special Design in Mind?</b></p>
               <p>
                 Have a Pinterest design, Instagram reference, or custom fabric you want stitched? We specialize in recreating runway and celebrity looks!
               </p>
