@@ -1,15 +1,15 @@
-import blouse1 from "../assets/gallery/blouse-1.svg";
-import blouse2 from "../assets/gallery/blouse-2.svg";
-import blouse3 from "../assets/gallery/blouse-3.svg";
-import lehenga1 from "../assets/gallery/lehenga-1.svg";
-import lehenga2 from "../assets/gallery/lehenga-2.svg";
-import lehenga3 from "../assets/gallery/lehenga-3.svg";
-import dress1 from "../assets/gallery/dress-1.svg";
-import dress2 from "../assets/gallery/dress-2.svg";
-import dress3 from "../assets/gallery/dress-3.svg";
-import other1 from "../assets/gallery/other-1.svg";
-import other2 from "../assets/gallery/other-2.svg";
-import other3 from "../assets/gallery/other-3.svg";
+import blouse1 from "../assets/gallery/blouse-1.jpeg";
+import blouse2 from "../assets/gallery/blouse-2.jpeg";
+import blouse3 from "../assets/gallery/blouse-3.jpeg";
+import lehenga1 from "../assets/gallery/lehenga-1.jpeg";
+import lehenga2 from "../assets/gallery/lehenga-2.jpeg";
+import lehenga3 from "../assets/gallery/lehenga-3.jpeg";
+import dress1 from "../assets/gallery/dress-1.jpg";
+import dress2 from "../assets/gallery/dress-2.jpeg";
+import dress3 from "../assets/gallery/dress-3.jpeg";
+import other1 from "../assets/gallery/other-1.jpeg";
+import other2 from "../assets/gallery/other-2.jpeg";
+import other3 from "../assets/gallery/other-3.jpeg";
 
 export const PRODUCT_CATEGORIES = [
   { id: "all", label: "All Items" },
@@ -24,8 +24,8 @@ export const products = [
     id: "prod-1",
     name: "Royal Zardosi Silk Blouse",
     category: "Blouses",
-    price: 2499,
-    originalPrice: 3200,
+    price: 699,
+    originalPrice: 900,
     rating: 4.9,
     reviewCount: 28,
     image: blouse1,
@@ -46,8 +46,8 @@ export const products = [
     id: "prod-2",
     name: "Velvet Bridal Heavy Blouse",
     category: "Blouses",
-    price: 3499,
-    originalPrice: 4200,
+    price: 949,
+    originalPrice: 1200,
     rating: 5.0,
     reviewCount: 35,
     image: blouse2,
@@ -68,8 +68,8 @@ export const products = [
     id: "prod-3",
     name: "Classic Boatneck Cotton Silk Blouse",
     category: "Blouses",
-    price: 1499,
-    originalPrice: 1899,
+    price: 450,
+    originalPrice: 750,
     rating: 4.7,
     reviewCount: 19,
     image: blouse3,
@@ -90,8 +90,8 @@ export const products = [
     id: "prod-4",
     name: "Pastel Florals Designer Lehenga Choli",
     category: "Lehengas",
-    price: 8999,
-    originalPrice: 11500,
+    price: 2559,
+    originalPrice: 4500,
     rating: 4.9,
     reviewCount: 42,
     image: lehenga1,
@@ -112,8 +112,8 @@ export const products = [
     id: "prod-5",
     name: "Crimson Red Velvet Bridal Lehenga Set",
     category: "Lehengas",
-    price: 14999,
-    originalPrice: 18000,
+    price: 6999,
+    originalPrice: 8000,
     rating: 5.0,
     reviewCount: 56,
     image: lehenga2,
@@ -134,7 +134,7 @@ export const products = [
     id: "prod-6",
     name: "Georgette Festive Flared Lehenga",
     category: "Lehengas",
-    price: 6499,
+    price: 5499,
     originalPrice: 7999,
     rating: 4.8,
     reviewCount: 22,
@@ -156,8 +156,8 @@ export const products = [
     id: "prod-7",
     name: "Embroidered Silk Anarkali Dress",
     category: "Dresses",
-    price: 3999,
-    originalPrice: 4999,
+    price: 2999,
+    originalPrice: 3999,
     rating: 4.8,
     reviewCount: 31,
     image: dress1,
@@ -178,8 +178,8 @@ export const products = [
     id: "prod-8",
     name: "Indo-Western Peplum & Sharara Suit",
     category: "Dresses",
-    price: 4499,
-    originalPrice: 5500,
+    price: 1599,
+    originalPrice: 2000,
     rating: 4.9,
     reviewCount: 17,
     image: dress2,
@@ -199,8 +199,8 @@ export const products = [
     id: "prod-9",
     name: "Contemporary Layered Indo-Western Gown",
     category: "Dresses",
-    price: 5299,
-    originalPrice: 6499,
+    price: 1799,
+    originalPrice: 3499,
     rating: 4.9,
     reviewCount: 24,
     image: dress3,
@@ -241,7 +241,7 @@ export const products = [
     id: "prod-11",
     name: "Designer Festive Kurta & Pants",
     category: "Other",
-    price: 2799,
+    price: 2399,
     originalPrice: 3499,
     rating: 4.8,
     reviewCount: 18,
@@ -262,7 +262,7 @@ export const products = [
     id: "prod-12",
     name: "Custom Tailored Angrakha Kurti",
     category: "Other",
-    price: 2399,
+    price: 1999,
     originalPrice: 2999,
     rating: 4.9,
     reviewCount: 21,
