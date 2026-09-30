@@ -64,8 +64,7 @@ function HomePage() {
       {/* FAQ */}
       <FAQ />
 
-      {/* Location */}
-      <Location />
+      
     </div>
   );
 }
